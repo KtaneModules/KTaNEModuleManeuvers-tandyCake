@@ -410,7 +410,7 @@ public class ModuleManeuversScript : MonoBehaviour {
             yield return "end multiple strikes";
         }
     }
-
+    /*
     IEnumerator TwitchHandleForcedSolve ()
     {
         autosolving = true;
@@ -423,5 +423,5 @@ public class ModuleManeuversScript : MonoBehaviour {
         tpLongHold = false;
         yield return Press(centerButton, 0.15f);
         centerButton.OnInteractEnded();
-    }
+    }*/
 }
